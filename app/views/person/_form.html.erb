@@ -1,0 +1,30 @@
+<%= form_tag(controller: "person",action:"create", method:"post") do %>
+  <div class="field">
+    <%= label_tag(:name, "Name") %>
+    <%= text_field_tag(:name) %>
+  </div>
+
+  <div class="field">
+    <%= label_tag(:last, "Last Name") %>
+    <%= text_field_tag(:last)%>
+  </div>
+
+  <div class="field">
+    <%= label_tag(:date, "Birth Date") %>
+    <%= date_field_tag(:date) %>
+  </div>
+
+  <div class="field">
+    <%= label_tag(:descrip, "Description") %>
+    <%= text_field_tag(:descrip) %>
+  </div>
+
+  <div class="field">
+    <%= label_tag(:direct, "Director") %>
+    <%= check_box_tag(:direct) %>
+  </div>
+
+  <div class="actions">
+    <%= submit_tag("Send") %>
+  </div>
+<%end%>
