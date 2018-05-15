@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e2deeb8-0e61-4fda-b539-7086b2891d5a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/person/_form.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/person/create.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/person/list.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/person/new.html.erb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/person/show.html.erb" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/models/actor.rb" afterPath="$PROJECT_DIR$/app/models/actor.rb" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/person_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/person_controller.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -29,8 +22,8 @@
       <file leaf-file-name="person_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/person_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="18">
+              <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -125,8 +118,8 @@
         <option value="$PROJECT_DIR$/app/models/actor.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/person/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/person_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/person/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/person_controller.rb" />
       </list>
     </option>
   </component>
@@ -419,12 +412,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526400731603</updated>
-      <workItem from="1526400732958" duration="8048000" />
+      <workItem from="1526400732958" duration="8123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8048000" />
+    <option name="totallyTimeSpent" value="8123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1535" height="799" extended-state="6" />
@@ -703,8 +696,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/person_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="18">
+          <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
           <folding />
         </state>
       </provider>
