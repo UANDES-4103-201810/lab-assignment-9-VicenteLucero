@@ -20,11 +20,14 @@
   </div>
 
   <div class="field">
-    <%= label_tag(:direct, "Director") %>
-    <%= check_box_tag(:direct) %>
+    <%= radio_button_tag(:people, "Director") %>
+    <%= label_tag(:people_director, "This is a director") %>
+    <%= radio_button_tag(:people, "Actor") %>
+    <%= label_tag(:people_actor, "This is an actor") %>
+
   </div>
 
   <div class="actions">
-    <%= submit_tag("Send") %>
+    <%= submit_tag("Submit") %>
   </div>
 <%end%>
